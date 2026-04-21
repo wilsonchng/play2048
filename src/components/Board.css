@@ -1,0 +1,12 @@
+.board {
+  width: 380px;
+  height: 380px;
+  border: 1px solid;
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 10px;
+}
